@@ -92,9 +92,9 @@ const ChatContainer = () => {
         ))}
 
         {messages.length === 0 && (
-          <div>
+          <div className="flex flex-col text-primary gap-2 items-center justify-center mt-4">
             <MessageSquare />
-            <div className="flex flex-col items-center">No Chats...</div>
+            <div className="">No Chats...</div>
           </div>
         )}
       </div>
